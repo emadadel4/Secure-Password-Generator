@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myfont;
+    src: url("../../assets/fonts/t.ttf");
+}
+
+*{
+    color: white;
+}
+
+ul{
+   
+    list-style: none;
+}
+
+
+body{
+    background-color: #131313;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: myfont;
+}
+
+img {
+    object-fit: cover;
+    object-position: top;
+ }
+
+ #border{
+    background-color: #18191b;
+    border-radius: 0px;
+    font-size: 20px;
+ }
+
+ #home-banner{
+     border-radius: 15px;
+     height: 500px;
+ }
+
+ #post-banner{
+    border-radius: 25px;
+    height: 400px;
+ }
+
+ #profile{
+
+    height: 100px;
+     width: 100px;
+     border-radius: 100px;
+ }
+
+ #post-text {
+     font-size: 21px;
+     color: brown;
+ }
+
+ #container{
+    border-radius: 20px;
+    background-color: rgb(38, 38, 39);
+ }
+
+ #banner-text{
+    text-shadow: #131313 1px 1px 1px;
+    text-shadow: #000 1px 1px 1px,   #000 1px 1px 1px,   #000 1px 1px 1px,
+    #000 1px 1px 1px,   #000 1px 1px 1px,   #000 1px 1px 1px;
+ }
+ #home-banner-text{
+    font-size: 100px;
+    text-shadow: #131313;
+    color: blue;
+
+ }
+
+ #navbar-text{
+     font-size: larger;
+ }
+
+ #ps{
+     height: 40px;
+     width: 40px;
+     border-radius: 30px;
+ }
+
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+} 
+
+#input-group{
+    text-align: center;
+}
